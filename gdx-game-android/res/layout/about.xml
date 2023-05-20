@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#C70B00"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Programmer: Ali Khadangi"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="#000000"
+		android:textSize="20sp"
+		android:id="@+id/me"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="10dp"
+		android:textColor="#FCFF00"
+		android:alpha="0.4"
+		android:id="@+id/sounds"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Gmail: alitigercr71381@gmail.com"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="10dp"
+		android:textColor="#005B58"
+		android:alpha="0.4"
+		android:id="@+id/gm"/>
+
+</LinearLayout>
+
